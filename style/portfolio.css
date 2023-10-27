@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "Righteous";
+    src: url("../font/Righteous/Righteous-Regular.ttf");
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins/Poppins-Regular.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.header_nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+.annimation{
+    background-color: aquamarine;
+    padding: 2% 5%;
+}
+.info{
+    padding: 4% 8% 2% 5%;
+    background-color: rgb(98, 43, 226);
+}
+.info_pers{
+    padding: 15% 15%;
+}
+.info_pers p{
+    padding: 3% 0 10%;
+}
+.header, a{
+    color: rgb(219, 255, 243);
+    font-family: Poppins;
+}
+.info_pers h1{
+    font-weight: 800;
+    font-size: 3.2em;
+}
+.description{
+    font-size: 0.8em;
+}
