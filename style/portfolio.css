@@ -166,4 +166,8 @@ section{
 .diplome{
     font-weight: bolder;
 }
+#laravel{
+    color: red;
+    font-size: 1.5em;
+}
 
