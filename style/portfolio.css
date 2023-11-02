@@ -42,7 +42,7 @@ a{
 }
 
 body{
-    background: linear-gradient( to bottom, #1a1f1f, #4aafac)
+    background: linear-gradient( to bottom, #1a1f1f, #358885, #244646)
 }
 
 .info{
@@ -136,4 +136,34 @@ section{
     margin: 0 auto;
 }
 
+.formation > div{
+    width: 50%;
+    margin: 0 auto;
+    line-height: 2.3em;
+    font-size: 1.3em;
+    padding-top: 3%;
+}
+.left{
+    text-align: right;
+    padding-right: 25px;
+}
+.right{
+    border-left: rgb(49, 189, 214) solid 2px;
+    padding-left: 25px;
+}
+.type, .lieu{
+    font-weight: 600;
+    color:#eaecec;
+}
+.annee{
+    font-weight: 600;
+    color: orange;
+}
+.description{
+    font-weight: 600;
+    color: #9b9b9b;
+}
+.diplome{
+    font-weight: bolder;
+}
 
