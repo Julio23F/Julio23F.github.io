@@ -32,6 +32,9 @@ a{
 .info_pers p{
     padding: 3% 0 10%;
 }
+.header{
+    display: flex;
+}
 .header, a{
     color: #eaecec;
     font-family: Poppins;
@@ -49,10 +52,10 @@ body{
 }
 
 .info{
-    padding: 4% 8% 2% 5%;
+    padding: 2% 8% 2% 5%;
 }
 .annimation{
-    padding: 4% 0 0 0;
+    padding: 3% 0 0 0;
 }
 #particles-js{
     width: 100%;
@@ -173,11 +176,39 @@ section{
     color: red;
     font-size: 1.5em;
 }
-
+#res_cv{display: none;}
 
 @media only screen and (max-width: 989px){
  .header_nav{
     display: none;
  }
+ #profil{
+    display: none;
+ }
+ #shadow{
+    display: none;
+ }
+ .header{
+    display: block;
+ }
+ #res_cv{display: block;}
+ .cv{
+    display: none;
+}
+.container{
+    display: block;
+    padding: 5%;
+}
+.container > div{
+    width: 100%;
+}
+.icone{
+    width: 15%;
+}
 
+.formation > div{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 0%;
+}
 }
