@@ -230,6 +230,9 @@ section{
     .info_pers p{
         font-size: 0.8em !important;
     }
+    .description {
+        font-size: 0.6em !important;
+    }
     
     .info_pers{
         padding: 15% 5%;
