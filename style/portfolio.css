@@ -27,7 +27,7 @@ a{
 }
 
 .info_pers{
-    padding: 15% 15%;
+    padding: 10% 15% 15%;
 }
 
 .info_pers p{
@@ -43,6 +43,12 @@ a{
 .info_pers h1{
     font-weight: 800;
     font-size: 3.2em;
+}
+.info_pers{
+    text-align: justify;
+}
+.info_pers .row{
+    gap: 7%;
 }
 .description{
     font-size: 0.8em;
@@ -89,10 +95,10 @@ body{
     padding: 3px 30px;
     color: rgb(219, 255, 243);
     border: rgb(242, 252, 248) solid 2px;
-    border-radius: 25px;
+    border-radius: 15px;
     text-align: center;
     font-weight: bold;
-    font-size: 1em;
+    font-size: 0.9em;
     margin-left: 50%;
 }
 .cv:hover{
