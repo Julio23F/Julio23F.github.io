@@ -149,13 +149,67 @@ section{
     margin: 0 auto;
 }
 
-.formation > div{
+.formation > div {
     width: 50%;
     margin: 0 auto;
     line-height: 2.3em;
     font-size: 1.3em;
     padding-top: 3%;
 }
+.footer {
+    background-color: #171c28;
+    padding: 5%;
+    margin-top: 5%;
+    color: #eaecec;
+    text-align: justify;
+}
+.footer > div {
+    width: 100%;
+    
+}
+.footer p {
+    margin-top: 25px;
+    color: #868e96;
+    line-height: 1.8em;
+}
+.social_media {
+    margin-top: 5%;
+    display: flex;
+}
+.icon {
+    margin: 0 15px;
+    padding: 10px 12px 8px;
+    border-radius: 50%;
+}
+.icon:hover {
+    background-color: black;
+    transition: 0.257s ease-in-out;
+}
+a i{
+    text-decoration: none;
+    color: white;
+}
+
+.github {
+    background-color: #333333;
+}
+.linkedin {
+    background-color: #0e76a8;
+}
+.mail {
+    background-color: #ea4335;
+}
+.facebook {
+    background-color: #3b5998;
+    padding: 10px 15px 8px;
+}
+.social_media i {
+    font-size: 24px;
+}
+.icon_laravel {
+    font-size: 5px;
+}
+
 .left{
     text-align: right;
     padding-right: 25px;
