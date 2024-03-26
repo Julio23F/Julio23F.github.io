@@ -55,7 +55,10 @@ a{
 }
 
 body{
-    background: linear-gradient( to bottom, #1a1f1f, #358885, #244646)
+    background: linear-gradient( to bottom, #171c28, #244747, #171c28);
+
+    /* background: linear-gradient( to bottom, #1a1f1f, #3e7979, #244646); */
+    
 }
 
 .info{
@@ -80,6 +83,13 @@ body{
 #profil img{
     width: 100%;
     z-index: 3000;
+}
+
+.profil_bas img{
+    width: 100%;
+    margin-left: 25px;
+    z-index: 3000;
+    display: none;
 }
 #shadow{
     border: #dbe3e7 solid 2px;
@@ -121,22 +131,27 @@ body{
     padding: 2%;
 }
 .container > div{
-    padding: 30px;
-    background-color: #63afad;
+    padding: 15px;
+    background-color: #047884;
     margin: 15px;
-    width: 45%;
+    width: 46%;
 }
 
 .icone{
-    width: 21%;
+    width: 100px;
 }
 .icone img{
     width: 100%;
+    margin-top: 7px;
 }
-
+.liste {
+    padding-top: 15px;
+}
 .liste div{
-    color: #666666;
-    font-weight: 600
+    color: #eaecec;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 15px 0;
 }
 section{
     padding: 2% 0;
@@ -201,7 +216,7 @@ a i{
 }
 .facebook {
     background-color: #3b5998;
-    padding: 10px 15px 8px;
+    padding: 10px 16px 8px;
 }
 .social_media i {
     font-size: 24px;
@@ -246,6 +261,12 @@ a i{
     #profil{
         display: none;
     }
+    
+    .profil_bas img{
+        display: block;
+        margin-top: 25px;
+        margin-left: 0px;
+    }
     #shadow{
         display: none;
     }
@@ -258,13 +279,13 @@ a i{
     }
     .container{
         display: block;
-        padding: 5%;
+        padding: 5% 9% 5% 5%;
     }
     .container > div{
         width: 100%;
     }
     .icone{
-        width: 15%;
+        width: 90px;
     }
 
     .formation > div{
@@ -283,7 +304,7 @@ a i{
 
 }
 
-@media only screen and (max-width: 657px){
+@media only screen and (max-width: 767px){
     .info_pers h1{
         font-size: 2.3em !important;
     }
@@ -292,6 +313,15 @@ a i{
     }
     .description {
         font-size: 0.6em !important;
+    }
+
+    .profil_bas {
+        width: 100%;
+    }
+    .profil_bas img{
+        display: block;
+        width: 50%;
+        margin-top: 25px auto;
     }
     
     .info_pers{
@@ -310,6 +340,19 @@ a i{
     .formation > div{
         margin-bottom: 50px;
     }
+
+}
+@media only screen and (max-width: 452px){
+
+    .profil_bas {
+        width: 100%;
+    }
+    .profil_bas img{
+        display: block;
+        width: 100%;
+        margin-top: 25px auto;
+    }
+
 
 }
 .contact{
